@@ -1,0 +1,49 @@
+body{
+    background-image: url("./img/fondo-plano-dia-mundial-nino/7895078.jpg");
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.reveal{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Sigmar', cursive;
+    font-size: 50px;
+}
+.instrucciones{
+    text-align: center;
+    text-decoration: wavy;
+    font-family: 'Sigmar', cursive;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+  }
+  
+  button {
+    margin: auto;
+    border: 2px solid black;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Sigmar', cursive;
+
+  }
+
+  button:hover{
+    background-color: black;
+    color: white;
+  }
